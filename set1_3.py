@@ -1,8 +1,6 @@
 
 n = input()
-if n not in "abcdefghijklmnopqrstuvwxyz":
-  print("Invalid")
-elif n in "aeiou":
-  print("Vowel")
+if n in "abcdefghijklmnopqrstuvwxyz":
+  print("Alphabet")
 else:
-  print("Consonant")
+  print("No")
