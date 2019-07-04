@@ -7,6 +7,6 @@ for i in range(n[0], n[1]):
     if i % j == 0:
       flag = False
       break
-    if flag:
-      x.append(j)
+  if flag:
+    x.append(j)
 print(' '.join(x))
