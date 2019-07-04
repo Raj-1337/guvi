@@ -1,6 +1,6 @@
 
 n = input()
-if n == reversed(n):
+if n == n[::-1]:
   print("yes")
 else:
   print("no")
