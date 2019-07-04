@@ -8,5 +8,5 @@ for i in range(n[0], n[1]):
       flag = False
       break
   if flag:
-    x.append(i)
+    x.append(str(i))
 print(' '.join(x))
