@@ -1,5 +1,5 @@
 
-n = int()
-x = list(map(int, input().split()))
-x.sort()
-print(x[len(x)//2])
+m = int()
+t = list(map(int, input().split()))
+t.sort()
+print(t[len(t)//2])
