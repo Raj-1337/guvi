@@ -7,7 +7,7 @@ for i in permutations(x, 2):
     if sum(i) == 0:
         r = i
         break
-    elif sum(i) < c:
-        c = sum(i)
+    elif 0-sum(i) < c:
+        c = 0-sum(i)
         r = i
 print(r[0], r[1])
