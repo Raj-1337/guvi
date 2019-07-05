@@ -1,4 +1,4 @@
 
 a = input().split()
-z = [b[::-1] for i in x]
+z = [b[::-1] for b in x]
 print(" ".join(z))
