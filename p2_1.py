@@ -1,6 +1,6 @@
 
 n = input()
-if n.startswith('s') == True:
+if n.startswith('S') == True:
   print('yes')
 else:
   print("no")
