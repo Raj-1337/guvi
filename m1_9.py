@@ -8,5 +8,6 @@ for i in permutations(x, 2):
         r = i
         break
     elif sum(i) < c:
+        c = sum(i)
         r = i
 print(r[0], r[1])
