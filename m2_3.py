@@ -5,4 +5,4 @@ while len(x) > 1:
         print('NO')
         break
 else:
-    print('yes')
+    print('YES')
