@@ -1,4 +1,5 @@
 # your code goes here
+k = input()
 n = [i for i in input()]
 v = 'aeiouAEIOU'
 for i in n:
