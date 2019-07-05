@@ -6,5 +6,8 @@ r = []
 for i, j in t.items():
 	if j > 1:
 		r.append(i)
-r.sort()
-print(' '.join(r))
+if r:
+	r.sort()
+	print(' '.join(r))
+else:
+	print('unique')
