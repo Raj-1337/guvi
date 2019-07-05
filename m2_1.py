@@ -1,4 +1,4 @@
 k = input()
 x = input().split()
-for i in x:
-    print(i[::-1], end=" ")
+r = [i[::-1] for i in x]
+print(" ".join(r))
