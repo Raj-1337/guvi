@@ -1,9 +1,9 @@
 k = input()
-x = list(map(int, input().split()))
-y = x[:]
-while len(a) > 1:
+u = list(map(int, input().split()))
+v = u[:]
+while len(u) > 1:
     z = []
-    for i in filter((lambda b: x.index(b) % 2 != 0), x):
+    for i in filter((lambda b: u.index(b) % 2 != 0), u):
         z.append(i)
-    x = z[:]
-print(y.index(x[0]))
+    u = z[:]
+print(v.index(u[0]))
