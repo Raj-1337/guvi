@@ -1,14 +1,14 @@
 from itertools import chain, combinations
-k = input()
-x = list(map(int, input().split()))
-def multi(t):
+a = input()
+b = list(map(int, input().split()))
+def multi(y):
     z = 1
-    for i in t:
-        z *= i
+    for j in y:
+        z *= j
     return z
-p = 0
-for i in chain.from_iterable(combinations(x, n) for n in range(len(x)+1)):
-    t = multi(i)
-    if t > p:
-        p = t
-print(p)
+q = 0
+for c in chain.from_iterable(combinations(b, m) for m in range(len(b)+1)):
+    u = multi(c)
+    if u > q:
+        q = u
+print(q)
