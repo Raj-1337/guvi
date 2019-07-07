@@ -1,4 +1,4 @@
-k = input()
-x = list(map(int, input().split()))
-y = [str(i) for i in reversed(x)]
-print("->".join(y))
+x = input()
+u = list(map(int, input().split()))
+v = [str(l) for l in reversed(u)]
+print("->".join(u))
