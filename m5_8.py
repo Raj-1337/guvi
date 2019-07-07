@@ -1,3 +1,3 @@
 x = input()
 y = input()
-print(str(x.find(y)))
+print(x.find(y))
