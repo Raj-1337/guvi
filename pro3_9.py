@@ -6,3 +6,6 @@ for i in range(x, t, -1):
     if i + sum([int(k) for k in j]) == x:
         print(1)
         print(i)
+        break
+else:
+    print(0)
