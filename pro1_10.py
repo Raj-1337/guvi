@@ -5,5 +5,7 @@ for i in range(1, len(x)):
     if x[i] == x[i-1]:
         continue
     else:
-        c += sum(x[:i])
+        for j in x[:i]:
+            if j < x[i]:
+                c += j
 print(c)
