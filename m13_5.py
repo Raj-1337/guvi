@@ -1,3 +1,3 @@
-from collections import Counter
-x = Counter(input())
-print(*list(filter((lambda a: x[a]==1), x)))
+x = input()
+for i in x:
+    if x.count(i) == 1: print(i, end="")
