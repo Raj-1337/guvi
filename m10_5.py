@@ -6,4 +6,4 @@ for i in range(3, n):
             break
     else:
         r.append(i)
-print(*r)
+print(" ".join(map(str, r)))
