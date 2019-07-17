@@ -1,3 +1,3 @@
-x = [i.lower() for i in input().split()]
-for i in sorted(x):
-    print(i)
+k = [i.lower() for i in input().split()]
+for j in sorted(k):
+    print(j)
