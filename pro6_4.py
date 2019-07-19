@@ -3,6 +3,12 @@ x = list(map(int, input().split()))
 y = list(map(int, input().split()))
 c = 0
 #t = 0
+if n == 1 and x[0] == 1:
+    c += y[0]
+    if k:
+        c += k
+    print(c)
+    exit(0)
 while True:
     f = True
     for i in range(n):
