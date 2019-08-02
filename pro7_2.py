@@ -8,3 +8,5 @@ for i in range(len(x)):
         elif t == t[::-1]:
             print(len(x)-len(t))
             exit(0)
+else:
+    print(len(x))
