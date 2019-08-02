@@ -6,7 +6,6 @@ for i in range(len(x)):
         if len(t) <= 1:
             continue
         elif t == t[::-1]:
-            print(len(x)-len(t))
-            exit(0)
-else:
-    print(len(x))
+            if len(t) > len(r):
+                r = t
+print(len(x) - len(r)) if r else print(len(x))
