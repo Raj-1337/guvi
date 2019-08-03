@@ -1,3 +1,3 @@
-n = int(input())//2
+n = int(input())/2
 t = 2 * n - 1
-print(n * t)
+print(1) if n * 2 == n * t else print(int(n * t))
